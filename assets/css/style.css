@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Blacksword";
+    src: url("../font/fr13631857_Blacksword.otf");
+}
+
+
+.myName{
+    font-family: "Blacksword";
+}
+
+.main-img{
+    background-image: url("../img/1.jpg");
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 500px;
+    
+}
+.my-img{
+    background-image: url("./../img/2.png");
+    height: 500px;
+    background-position: center;
+
+}
+footer{
+    background-image: url("../img/p404.png");
+    background-color: rgba(0, 0, 0, 0.87);
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,51 +10,373 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.css"
+        integrity="sha512-+Zybl5OKqmaXx42ysgDdEODFRj8kLRQFy87G77NWmQxS8JMiQhDKovhffSaUuMDyaKxZOZrzouVbQMtBrUcv7w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
     <link href="../dist/output.css" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-    <div class="header flex h-16 container mx-auto border-b justify-between">
-        <div class="w-1/2 bg-red-600 flex lg:w-1/6 md:w-1/4 sm:w-1/3">
-            <img class="w-32 h-10 m-auto p-1" src="../assets/img/logo-light.png" alt="">
+    <header>
+        <div class="header flex h-16 container mx-auto border-b justify-between">
+            <div class="w-1/2 bg-red-600 flex lg:w-1/6 md:w-1/4 sm:w-1/3">
+                <img class="w-32 h-10 m-auto p-1" src="../assets/img/logo-light.png" alt="">
+            </div>
+            <div class="w-1/2 hidden justify-around lg:flex">
+                <a class="m-auto flex align-middle" href="#">Home <span
+                        class="text-lg material-symbols-outlined">expand_more</span></a>
+                <a class="m-auto flex align-middle" href="#">About <span
+                        class="text-lg material-symbols-outlined">expand_more</span></a>
+                <a class="m-auto flex align-middle" href="#">Services <span
+                        class="text-lg material-symbols-outlined">expand_more</span></a>
+                <a class="m-auto flex align-middle" href="#">Pages <span
+                        class="text-lg material-symbols-outlined">expand_more</span></a>
+                <a class="m-auto flex align-middle" href="#">News <span
+                        class="text-lg material-symbols-outlined">expand_more</span></a>
+                <a class="m-auto flex align-middle" href="#">Contact</a>
+            </div>
+            <div class="w-1/6 hidden justify-center items-center lg:flex">
+                <span class="material-symbols-outlined text-4xl">headset_mic</span>
+                <span>
+                    <p class="text-red-300 text-xs">Call Anytime</p>
+                    <p>3336660000</p>
+                </span>
+            </div>
+            <div class="w-1/6 hidden cursor-pointer lg:flex">
+                <span class="bg-red-600 m-auto px-5 py-2 rounded-2xl text-white">Report an issues</span>
+            </div>
+            <div class="w-1/2 flex lg:hidden items-center justify-center lg:w-1/6 md:w-1/4 sm:w-1/3 sm:justify-end">
+                <span class="material-symbols-outlined cursor-pointer text-2xl mx-2">dark_mode</span>
+                <span class="material-symbols-outlined cursor-pointer text-3xl">menu</span>
+            </div>
         </div>
-        <div class="w-1/2 hidden justify-around lg:flex">
-            <a class="m-auto flex align-middle" href="#">Home <span class="text-lg material-symbols-outlined">expand_more</span></a>
-            <a class="m-auto flex align-middle" href="#">About <span class="text-lg material-symbols-outlined">expand_more</span></a>
-            <a class="m-auto flex align-middle" href="#">Services <span class="text-lg material-symbols-outlined">expand_more</span></a>
-            <a class="m-auto flex align-middle" href="#">Pages <span class="text-lg material-symbols-outlined">expand_more</span></a>
-            <a class="m-auto flex align-middle" href="#">News <span class="text-lg material-symbols-outlined">expand_more</span></a>
-            <a class="m-auto flex align-middle" href="#">Contact</a>
+    </header>
+    <main>
+        <div class="container mx-auto">
+            <div class="main-img bg-slate-700 bg-no-repeat bg-cover w-full relative flex flex-col">
+                <span
+                    class="material-symbols-outlined rounded-full bg-slate-300 absolute top-1/2 left-5 cursor-pointer p-2">keyboard_backspace</span>
+                <span
+                    class="material-symbols-outlined rounded-full bg-slate-300 absolute top-1/2 right-5 cursor-pointer p-2">east</span>
+                <p class="text-5xl text-white font-black lg:ms-64 mx-auto mt-16 ">Best of city's</p>
+                <p class="text-5xl text-white font-black lg:ms-64 mx-auto mt-3 ">Arts & <span
+                        class="text-red-500">culture</span></p>
+                <p class="text-5xl text-white font-black lg:ms-64 mx-auto mt-3 ">online</p>
+                <p class="text-stone-400 lg:ms-64 mx-auto mt-4 w-2/4 text-center lg:text-start">Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Suscipit ullam eius unde laudantium </p>
+                <div class=" cursor-pointer flex lg:ms-64 mx-auto pt-4 mt-4">
+                    <span class="bg-red-600 m-auto px-5 py-2 rounded-2xl text-white">Volunteer Tour</span>
+                </div>
+            </div>
+            <div class="container flex flex-wrap p-2 justify-around relative bottom-20">
+                <div class="border shadow-xl border-inherit rounded-xl lg:w-1/5 sm:w-5/12 w-10/12 pb-10 mt-2 bg-white">
+                    <span
+                        class="material-symbols-outlined bg-red-600 p-3 text-white rounded-full text-5xl mt-10 ms-10">helicopter</span>
+                    <h3 class="w-10/12 mx-auto  text-3xl mt-2">Any Type of Medical Emergency</h3>
+                    <p class="mt-2 w-10/12 mx-auto text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Provident, nostrum voluptatum nihil cum vel nam!</p>
+                </div>
+                <div class="border shadow-xl border-inherit rounded-xl  lg:w-1/5 sm:w-5/12 w-10/12 pb-10 mt-2 bg-white">
+                    <span
+                        class="material-symbols-outlined bg-red-600 p-3 text-white rounded-full text-5xl mt-10 ms-10">health_and_safety</span>
+                    <h3 class="w-10/12 mx-auto  text-3xl mt-2">Any Type of Medical Emergency</h3>
+                    <p class="mt-2 w-10/12 mx-auto text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Provident, nostrum voluptatum nihil cum vel nam!</p>
+                </div>
+                <div class="border shadow-xl border-inherit rounded-xl  lg:w-1/5 sm:w-5/12 w-10/12 pb-10 mt-2 bg-white">
+                    <span
+                        class="material-symbols-outlined bg-red-600 p-3 text-white rounded-full text-5xl mt-10 ms-10">recycling</span>
+                    <h3 class="w-10/12 mx-auto  text-3xl mt-2">Any Type of Medical Emergency</h3>
+                    <p class="mt-2 w-10/12 mx-auto text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Provident, nostrum voluptatum nihil cum vel nam!</p>
+                </div>
+                <div class="border shadow-xl border-inherit rounded-xl  lg:w-1/5 sm:w-5/12 w-10/12 pb-10 mt-2 bg-white">
+                    <span
+                        class="material-symbols-outlined bg-red-600 p-3 text-white rounded-full text-5xl mt-10 ms-10">flightsmode</span>
+                    <h3 class="w-10/12 mx-auto  text-3xl mt-2">Any Type of Medical Emergency</h3>
+                    <p class="mt-2 w-10/12 mx-auto text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Provident, nostrum voluptatum nihil cum vel nam!</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="lg:w-1/2 ps-10 font-bold">
+                    <p class="text-red-600">ABOUT LEADER</p>
+                    <p class="text-4xl mt-4">Meet <span class="text-red-600">Ideological</span></p>
+                    <p class="text-4xl">Leader for youth</p>
+                    <p class="text-4xl">Generation</p>
+                    <p class="w-10/12 text-slate-500 mt-3 font-light">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Culpa libero in voluptas atque. Optio qui debitis consequuntur! Delectus
+                        quaerat earum eveniet eos illo culpa amet voluptatum. Quidem, tempora recusandae! Assumenda!</p>
+                    <p class="myName text-5xl font-light mt-4 mb-4">nasiri</p>
+                    <p class="flex items-center font-semibold mt-3"><span
+                            class="material-symbols-outlined me-8 text-red-600">done</span> improving all types of
+                        opportunities</p>
+                    <p class="flex items-center font-semibold mt-3"><span
+                            class="material-symbols-outlined me-8 text-red-600">done</span> Quick solutions for daily
+                        problem</p>
+                    <p class="flex items-center font-semibold mt-3"><span
+                            class="material-symbols-outlined me-8 text-red-600">done</span> Community that grows larger
+                    </p>
+                    <div class="flex  mt-10">
+                        <span class="cursor-pointer bg-red-600  px-5 py-2 rounded-2xl text-white">Report an
+                            issues</span>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 relative my-img bg-no-repeat bg-cover w-3/4 mx-auto">
+                    <div
+                        class="text-center border rounded-full absolute sm:w-36 sm:h-36 w-16 h-16 flex flex-col justify-center top-1/4 left-1/4 bg-white">
+                        <p class="text-red-600 sm:text-5xl text-2xl font-bold">5</p>
+                        <p class="font-bold text-xs sm:text-xl">Years of</p>
+                        <p class="font-bold text-xs sm:text-xl">Exps</p>
+                    </div>
+                    <div
+                        class="text-center border-4 border-red-400 sm:w-48 sm:h-24 w-36 h-16 rounded-full absolute p-6 flex flex-col justify-center bg-white bottom-1/4 right-0">
+                        <p class="font-bold sm:text-xl text-xs">Mohammad nasiri</p>
+                        <p class="sm:text-xl text-xs">Web developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center bg-slate-300 pb-10 mt-5">
+                <p class="text-red-600 font-semibold mt-20">EFFICIENCY-OPPORTUNITY</p>
+                <p class="text-4xl font-bold mt-3">City Municipality</p>
+                <p class="text-4xl font-bold mt-3">Services And</p>
+                <p class="text-4xl font-bold mt-3">Departments</p>
+            </div>
+            <div class="flex flex-wrap bg-slate-300 justify-around">
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">how_to_vote</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">business_center</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">home_work</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">monetization_on</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+            </div>
+            <div class="flex flex-wrap bg-slate-300 justify-around">
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">pill</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">balance</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">nature</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+                <div class="mt-4 border-4 lg:w-1/5 sm:w-5/12 w-10/12 text-center rounded-xl bg-white">
+                    <span
+                        class="material-symbols-outlined text-red-600 bg-red-300 rounded-b-xl p-2 text-4xl">local_parking</span>
+                    <p class="font-bold mt-3 w-1/2 mx-auto">Government And Elections</p>
+                    <span
+                        class="material-symbols-outlined mt-3 cursor-pointer hover:bg-red-300 duration-300 p-1 rounded-full">trending_flat</span>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="lg:w-1/2 w-full pt-10 ">
+                    <img class="w-96 rounded-xl mx-auto" src="../assets/img/2.jpg" alt="">
+                </div>
+                <div class="lg:w-1/2 w-full pt-10">
+                    <p class="text-red-600 text-xs font-bold text-center mx-auto">INSTANT SERVICES</p>
+                    <p class="font-bold text-3xl w-3/4 mt-2 text-center mx-auto">Quick Services From The City Municipal
+                    </p>
+                    <p class="text-slate-400 mt-2 w-3/4 text-center mx-auto">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Commodi pariatur laudantium consequuntur expedita incidunt dolorem modi ipsam
+                        ut placeat dolore minima fugit, asperiores.</p>
+                    <div
+                        class="border flex flex-wrap shadow-lg rounded-xl p-2 mt-20 relative lg:right-56 bg-white mx-2">
+                        <div class="sm:w-1/2 w-full ">
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                        </div>
+                        <div class="sm:w-1/2 w-full">
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                            <p class="flex items-center mt-2 justify-center"><span
+                                    class="material-symbols-outlined me-5 text-lg text-red-600">done</span> Holday Trash
+                                & Recycling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <p class="text-center text-red-600 font-semibold">TESTIMONIALS</p>
+                <p class="text-center mx-auto lg:w-5/12 md:w-10/12 font-bold text-4xl mt-4">We Are Very Glade to Get
+                    People Review</p>
+                <div class="flex flex-wrap justify-around mt-5">
+                    <div class="lg:w-1/4 md:w-8/12 w-10/12 mt-8">
+                        <div class="rounded-xl bg-white border  p-5">
+                            <span class="material-symbols-outlined text-yellow-300 mt-5 ms-10">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <p class="w-11/12 mx-auto text-xs font-semibold text-center">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Consequuntur commodi optio officia similique dolorum
+                                soluta reprehenderit iusto deleniti labore saepe libero </p>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <img class="w-10 h-10 rounded-full ms-10 " src="../assets/img/3.jpeg" alt="">
+                            <div class="ms-4">
+                                <p>keanu Reeves</p>
+                                <p class="text-xs text-slate-400">manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/4 md:w-8/12 w-10/12 mt-8">
+                        <div class="rounded-xl bg-white border p-5">
+                            <span class="material-symbols-outlined text-yellow-300 mt-5 ms-10">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined mt-5">star</span>
+                            <p class="w-11/12 mx-auto text-xs font-semibold text-center">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Consequuntur commodi optio officia similique dolorum
+                                soluta reprehenderit iusto deleniti labore saepe libero </p>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <img class="w-10 h-10 rounded-full ms-10 " src="../assets/img/4.jpg" alt="">
+                            <div class="ms-4">
+                                <p>keanu Reeves</p>
+                                <p class="text-xs text-slate-400">manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/4 md:w-8/12 w-10/12 mt-8">
+                        <div class="rounded-xl bg-white border p-5">
+                            <span class="material-symbols-outlined text-yellow-300 mt-5 ms-10">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined text-yellow-300 mt-5">star</span>
+                            <span class="material-symbols-outlined mt-5">star</span>
+                            <p class="w-11/12 mx-auto text-xs font-semibold text-center">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Consequuntur commodi optio officia similique dolorum
+                                soluta reprehenderit iusto deleniti labore saepe libero </p>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <img class="w-10 h-10 rounded-full ms-10 " src="../assets/img/5.jpg" alt="">
+                            <div class="ms-4">
+                                <p>keanu Reeves</p>
+                                <p class="text-xs text-slate-400">manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="w-1/6 hidden justify-center items-center lg:flex">
-            <span class="material-symbols-outlined text-4xl">headset_mic</span>
-            <span>
-                <p class="text-red-300 text-xs">Call Anytime</p>
-                <p>3336660000</p>
-            </span>
+    </main>
+    <footer>
+        <div class="mt-10 flex flex-wrap">
+            <div class="lg:w-1/4 sm:w-1/2 w-full mt-5 p-5 lg:text-start text-center">
+                <p class="flex items-center justify-center">
+                    <span class="material-symbols-outlined text-red-600 text-2xl">home_work</span>
+                    <span class="ms-2 text-white font-bold text-xl">Govarnex</span>
+                </p>
+                <p class="text-slate-300 text-xs mt-2 text-center w-3/4 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                    at, ab eum pariatur error esse molestias</p>
+                <div class="flex justify-center mt-5">
+                    <i class="mdi mdi-twitter text-2xl text-white bg-slate-500 rounded-full w-10 h-10 flex items-center justify-center mx-3 cursor-pointer"></i>
+                    <i class="mdi mdi-instagram text-2xl text-white bg-slate-500 rounded-full w-10 h-10 flex items-center justify-center mx-3 cursor-pointer"></i>
+                    <i class="mdi mdi-facebook text-2xl text-white bg-slate-500 rounded-full w-10 h-10 flex items-center justify-center mx-3 cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="lg:w-1/5 sm:w-1/2 w-full mt-5 p-5 sm:text-start text-center">
+                <p class="text-white font-semibold">Explore</p>
+                <p class="text-white text-sm mt-3">Employment & Job</p>
+                <p class="text-white text-sm mt-2">Government & Elections</p>
+                <p class="text-white text-sm mt-2">Real Estate & Buildings</p>
+                <p class="text-white text-sm mt-2">Health & Medical</p>
+                <p class="text-white text-sm mt-2">Trasport & Traffic</p>
+            </div>
+            <div class="lg:w-1/4 sm:w-1/2 w-full mt-5 p-5 sm:text-start text-center">
+                <p class="text-white font-semibold">Usefull Links</p>
+                <p class="text-white text-sm mt-3">Admininstration</p>
+                <p class="text-white text-sm mt-2">Fire Services</p>
+                <p class="text-white text-sm mt-2">Business & Taxation</p>
+                <p class="text-white text-sm mt-2">Circular's & Go's</p>
+                <p class="text-white text-sm mt-2">Contact Us</p>
+            </div>
+            <div class="lg:w-1/4 sm:w-1/2 w-full mt-5 p-5 sm:text-start text-center">
+                <p class="text-white font-semibold">Contact</p>
+                <p class="text-white text-sm mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, inventore.</p>
+                <p class="text-white text-sm mt-2 flex items-center cursor-pointer"><span class="material-symbols-outlined text-red-600 mx-3 text-xl">add_location</span> New Hyda Park, NY 11040</p>
+                <p class="text-white text-sm flex items-center cursor-pointer"><span class="material-symbols-outlined text-red-600 mx-3 text-xl">mail</span> emample@governex.com</p>
+                <p class="text-white text-sm flex items-center cursor-pointer"><span class="material-symbols-outlined text-red-600 mx-3 text-xl">call</span> 333 666 0000</p>
+            </div>
         </div>
-        <div class="w-1/6 hidden cursor-pointer lg:flex">
-            <span class="bg-red-600 m-auto px-5 py-2 rounded-2xl text-white">Report an issues</span>
+        <div class="bg-gray-900 h-10 p-2">
+            <p class="text-white text-center">copyright 2023 by Nasiri All Right Reserved</p>
         </div>
-        <div class="w-1/2 flex lg:hidden items-center justify-center lg:w-1/6 md:w-1/4 sm:w-1/3 sm:justify-end">
-            <span class="material-symbols-outlined cursor-pointer text-2xl mx-2">dark_mode</span>
-            <span class="material-symbols-outlined cursor-pointer text-3xl">menu</span>
-        </div>
-    </div>
-</header>
+    </footer>
 
 
 
 
- 
 
 
-   
 
 
+
+
+<script src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
+
 </html>
